@@ -1,21 +1,21 @@
-# gitSync
+# simple-git-sync
 Node.js package built off of simple-git. Periodically auto-pull remote changes, then push local changes to gitHub.
 
-1. Install 'git' on your device, https://git-scm.com/downloads
+## 1. Install 'git' on your device, https://git-scm.com/downloads
 
-2. Make sure to initialize your git project first by doing the following:
+## 2. Make sure to initialize your git project first by doing the following:
    - Open command prompt in your localBranchPath folder.
    - Type 'git config credential.helper store'
    - Type 'git init'
    - Enter your gitUsername and password to authenticate your account.
 
-3. Type 'npm install simple-git-sync'
+## 3. Type 'npm install simple-git-sync'
 
-4. Usage:
+## 4. Usage:
 
-const gitSync = require('simple-git-sync');
+### const gitSync = require('simple-git-sync');
 
-gitSync.syncGit('gitUsername', 'gitRepo', 'gitBranch', 'LocalMainFilename', 'localBranchPath');
+### gitSync.syncGit('gitUsername', 'gitRepo', 'gitBranch', 'LocalMainFilename', 'localBranchPath');
 
 //gitSync.syncGit('Brandon10x15', 'simple-git-sync', 'Test', 'pm2', 'App.js', '...');
 
