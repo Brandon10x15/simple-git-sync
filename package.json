@@ -4,15 +4,33 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
-    "url": "git@github.com:brandon10x15/simple-git-sync.git"
+    "url": "git+ssh://git@github.com/brandon10x15/simple-git-sync.git"
   },
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A lightweight node.js tool that automatically pulls any remote changes to your gitHub repo/branch then pushes any local changes made.",
   "main": "simple-git-sync.js",
-  "author": {
-    "name": "Brandon10x15"
-  },
+  "author": "Brandon10x15",
   "dependencies": {
     "simple-git": "^2.37.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/brandon10x15/simple-git-sync/issues"
+  },
+  "homepage": "https://github.com/brandon10x15/simple-git-sync#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "simple-git",
+    "simple",
+    "git",
+    "sync",
+    "push",
+    "pull",
+    "github",
+    "auto",
+    "commit"
+  ],
+  "license": "MIT"
 }
